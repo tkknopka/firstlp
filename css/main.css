@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    }
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+header {
+    padding-top: 100px;
+    padding-bottom: 72px;
+    color: #fff;
+    background-color: #4dbffe;
+    background: -webkit-linear-gradient(top left, #4dbffe, #378fd9);
+    background: -moz-linear-gradient(top left, #4dbffe, #378fd9);
+    background: linear-gradient(to bottom right, #4dbffe, #378fd9);
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.offer
+{
+width: 557px;
+margin-top: 148px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.title {
+    font-size: 30px;
+}
+.title span {
+    font-size: 40px;
+}
+p {
+    line-height: 1.65em;
+}
+.intro {
+    font-family: 'OpenSans', sans-serif;
+    margin-bottom: 37px;
+    margin-top: 30px;
+    width: 380px;
+}
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    color: #000;
+    display: block;
+    width: 205px;
+    padding: 19px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.desktop {
+    margin-top: 72px;
+}
+.learn {
+    padding-top: 110px;
+    padding-bottom: 123px;
+}
+.section-title {
+    font-size: 30px;
+    text-align: center;
+}
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.skill {
+    width: 350px;
+    background: url(../img/icon1.png) no-repeat center top;
+    padding-top: 100px;
+    text-align: center;
+}
+.skill-title {
+    font-size: 18px;
+}
+.skill-free {
+    width: 380px;
+    background: url(../img/icon2.png) no-repeat center top;
+}
+.skill-change {
+    background: url(../img/icon3.png) no-repeat center top;
+}
+.skill-text {
+    margin-top: 7px;
+}
+.mail {
+    background-color: #ecf3f8;
+    padding-top: 103px;
+    padding-bottom: 108px;
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+.input {
+    width: 343px;
+    height: 55px;
+    border: 1px solid #adabb2;
+    color: #adabb2;
+    margin: 12px 0px 12px 0px;
+    padding: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.btn-form {
+    border: 0px;
+    width: 343px;
+}
+footer {
+    background: #164d7a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.credit {
+    text-align: center;
+    color: #d4cee3;
+    font-size: 14px;
+    margin: 0;
+}
+.red {
+    color: red;
+}
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.desktop {
+		display: block;
+	    width: 549px;
+	    margin: 72px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 30px;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn {
+		margin-left: 0;
+	    margin-top: 15px;
+	    width: 100%;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+    }
+    
+}
